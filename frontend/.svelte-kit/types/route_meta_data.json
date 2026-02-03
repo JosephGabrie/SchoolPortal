@@ -1,0 +1,24 @@
+{
+	"/": [],
+	"/Student": [],
+	"/Student/assignments": [],
+	"/Student/calendar": [],
+	"/Student/dashboard": [],
+	"/Teacher": [],
+	"/Teacher/aabb": [],
+	"/Teacher/aabb/assignments": [],
+	"/Teacher/aabb/myStudents": [],
+	"/Teacher/assignments": [],
+	"/Teacher/calendar": [],
+	"/Teacher/dashboard": [],
+	"/Teacher/test": [],
+	"/auth/callback": [
+		"src/routes/auth/callback/+server.ts"
+	],
+	"/login": [
+		"src/routes/login/+page.server.ts"
+	],
+	"/protected": [
+		"src/routes/protected/+page.server.ts"
+	]
+}

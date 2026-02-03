@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@skeletonlabs/skeleton": "^4.3.4",
+    "@skeletonlabs/skeleton-svelte": "^4.3.4"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  }
+}

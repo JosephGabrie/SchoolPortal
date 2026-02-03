@@ -1,0 +1,85 @@
+###############
+# SVELTEKIT
+###############
+
+# Node
+node_modules/
+pnpm-lock.yaml
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build outputs
+/.svelte-kit/
+/build/
+/dist/
+/.vercel/
+/.netlify/
+
+# Env
+.env
+.env.*
+
+# OS
+.DS_Store
+
+
+###############
+# GOLANG
+###############
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build artifacts
+bin/
+build/
+dist/
+coverage.out
+
+# Local configs
+.env
+.env.*
+
+
+###############
+# NEOVIM
+###############
+
+# Swap files
+*.swp
+*.swo
+
+# Session files
+Session.vim
+
+# Undercurl history / undo directory
+*.un~
+.cache/
+.nvim/
+nvim.log
+
+# LSP cache (if using nvim-lsp, mason, etc.)
+.mason/
+.lsp/
+
+###############
+# GENERAL
+###############
+
+# Logs
+*.log
+
+# IDE / Editor folders
+.idea/
+.vscode/
+.vscode-test/
+
+# OS files
+Thumbs.db

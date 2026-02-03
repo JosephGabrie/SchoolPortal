@@ -1,0 +1,90 @@
+
+{
+  "title": "MyStudent",
+  "assignment": {
+    "title": "Name U.S. Presidents",
+    "descriptions": "Name all U.S. Presidents in order"
+  },
+  "students": [
+    {
+      "name": "John Martinez",
+      "grade": 85
+    },
+    {
+      "name": "Jamie Chen",
+      "grade": 92
+    },
+    {
+      "name": "Sarah Johnson",
+      "grade": 78
+    },
+    {
+      "name": "Michael Brown",
+      "grade": 88
+    },
+    {
+      "name": "Emily Davis",
+      "grade": 95
+    },
+    {
+      "name": "Daniel Kim",
+      "grade": 71
+    },
+    {
+      "name": "Ashley Rodriguez",
+      "grade": 89
+    },
+    {
+      "name": "Christopher Lee",
+      "grade": 37
+    },
+    {
+      "name": "Jessica Taylor",
+      "grade": 91
+    },
+    {
+      "name": "Matthew Anderson",
+      "grade": 83
+    },
+    {
+      "name": "Amanda White",
+      "grade": 76
+    },
+    {
+      "name": "Joshua Garcia",
+      "grade": 94
+    },
+    {
+      "name": "Brittany Thomas",
+      "grade": 82
+    },
+    {
+      "name": "Ryan Martinez",
+      "grade": 69
+    },
+    {
+      "name": "Lauren Wilson",
+      "grade": 87
+    },
+    {
+      "name": "David Nguyen",
+      "grade": 93
+    },
+    {
+      "name": "Samantha Moore",
+      "grade": 74
+    },
+    {
+      "name": "Brandon Jackson",
+      "grade": 86
+    },
+    {
+      "name": "Megan Harris",
+      "grade": 79
+    },
+    {
+      "name": "Kevin Patel",
+      "grade": 90
+    }
+  ]
+}

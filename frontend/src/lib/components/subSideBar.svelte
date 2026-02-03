@@ -1,0 +1,38 @@
+<script lang="ts">
+  import { SettingsIcon, SkullIcon } from "lucide-svelte";
+  import { Navigation } from "@skeletonlabs/skeleton-svelte";
+  import type { Component } from "svelte";
+  interface Props {
+    links: Array<{
+      label: string;
+      href: string;
+      icon: any;
+    }>;
+    value?: string;
+  }
+
+  let { links, value = "" }: Props = $props();
+
+  let anchorRail =
+    " btn hover:preset-tonal aspect-square w-full max-w-[84px] flex flex-col items-center gap-0.5";
+</script>
+
+<div
+  class=" w-full h-[dvh] grid grid-cols-[auto_1fr] border border-surface-200-800"
+>
+  <!-- --- -->
+  <Navigation layout="rail" class={value}>
+    <Navigation.Content>
+      <Navigation.Menu>
+        {#each links as link (link)}
+          {@const Icon = link.icon}
+          <a href={link.href} class={anchorRail}>
+            <Icon class="size-5" />
+            <span class="text-xs">{link.label}</span>
+          </a>
+        {/each}
+      </Navigation.Menu>
+    </Navigation.Content>
+  </Navigation>
+  <!-- --- -->
+</div>
